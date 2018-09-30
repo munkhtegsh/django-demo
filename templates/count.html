@@ -1,0 +1,13 @@
+This is count
+<br />
+<p>There are {{ length }}</p>
+
+
+
+{% for key, val in sortedWords %}
+{{ key }} - {{ val }}
+<br />
+
+{% endfor %}
+
+<a href="{% url 'homepage' %}">Homepage</a>
